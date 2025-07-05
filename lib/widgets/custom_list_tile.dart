@@ -26,13 +26,13 @@ class CustomListTile extends StatelessWidget {
                 "Build your career with Nidhal Khazene",
                 style: TextStyle(
                   color: Colors.black.withValues(alpha: 0.5),
-                  fontSize: 20,
+                  fontSize: 18,
                 ),
               ),
             ),
             trailing: IconButton(
               onPressed: () {},
-              icon: Icon(FontAwesomeIcons.trash, color: Colors.black, size: 24),
+              icon: Icon(FontAwesomeIcons.trash, color: Colors.black, size: 28),
             ),
           ),
           Padding(
