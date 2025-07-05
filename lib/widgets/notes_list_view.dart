@@ -10,7 +10,7 @@ class NotesListView extends StatelessWidget {
       itemCount: 10,
       itemBuilder: (context, index) {
         return Padding(
-          padding: EdgeInsets.symmetric(vertical: 8),
+          padding: EdgeInsets.only(bottom: 8),
           child: CustomListTile(),
         );
       },
