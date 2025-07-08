@@ -42,12 +42,15 @@ class CustomListTile extends StatelessWidget {
                   ),
                 ),
               ),
-              trailing: IconButton(
-                onPressed: () {},
-                icon: Icon(
-                  FontAwesomeIcons.trash,
-                  color: Colors.black,
-                  size: 28,
+              trailing: Padding(
+                padding: EdgeInsets.only(bottom: 15),
+                child: IconButton(
+                  onPressed: () {},
+                  icon: Icon(
+                    FontAwesomeIcons.trash,
+                    color: Colors.black,
+                    size: 26,
+                  ),
                 ),
               ),
             ),
