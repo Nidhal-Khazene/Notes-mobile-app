@@ -3,6 +3,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:notes_app/cubits/notes_cubit/notes_cubit.dart';
 import 'package:notes_app/models/note_model.dart';
 import 'package:notes_app/widgets/custom_widgets/custom_text_form_field.dart';
+import 'package:notes_app/widgets/edit_note_colors_list.dart';
 
 import 'custom_widgets/custom_app_bar.dart';
 
@@ -51,6 +52,8 @@ class _EditNoteViewBodyState extends State<EditNoteViewBody> {
               hint: widget.note.subTitle,
               maxLines: 5,
             ),
+            const SizedBox(height: 30),
+            EditNoteColorsList(note: widget.note),
           ],
         ),
       ),
