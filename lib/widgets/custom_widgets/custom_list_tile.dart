@@ -46,7 +46,9 @@ class CustomListTile extends StatelessWidget {
               trailing: Padding(
                 padding: EdgeInsets.only(bottom: 15),
                 child: IconButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    note.delete();
+                  },
                   icon: Icon(
                     FontAwesomeIcons.trash,
                     color: Colors.black,
